@@ -52,7 +52,7 @@ Enhance the InvestIQ AI intelligence by integrating conversation history when re
 ---
 
 ### 📝 Description  
-**Context-Aware Follow-Up Engine** to our chat system.  
+Bringing **Context-Aware Follow-Up Engine** to our chat system.  
 The engine smartly determines whether the user's current query depends on previous interactions.  
 
 - If the query **is context-dependent (i.e., a follow-up)**, the LLM uses relevant chat history to generate a more accurate and coherent response.
@@ -129,7 +129,7 @@ User Question
 → Generate a user-friendly, well-structured response
 
 ```
-# Custom Chat History Management
+# Custom Chat History Management (In case of follow up questions):- 
 - Logged-In Users:
   - History is retrieved from NeonDB only when a query is a follow-up.
 - Anonymous Users:
@@ -142,7 +142,6 @@ For every user-queried fund:
 - Make precise API calls using the ISIN.
 
 🧾 Returns & NAV Calculation
-- If the user asks about NAV history or returns:
 - Get full NAV history via Kuvera API using ISIN.
 - Calculate point-to-point returns over 1–10 years.
 - Format this into a human-readable performance summary.
