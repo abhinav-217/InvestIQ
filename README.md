@@ -155,13 +155,4 @@ Kuvera API only provides NAV data for the last ~2 years. For older return calcul
 - "Compare Axis Bluechip with ICICI Pru Flexicap"
 - "What is the NAV of that fund?" ← (Follow-up logic applies)
 
-  | Resource             | Purpose                                  |
-| -------------------- | ---------------------------------------- |
-| **Gemini 1.5 & 2.0** | Reasoning, Structuring, Query Resolution |
-| **LangChain**        | Embeddings, Retrieval, Prompt Chaining   |
-| **Kuvera API**       | Fund NAV and return data (2 years only)  |
-| **Web Scraping**     | Portfolio holdings and asset breakdown   |
-| **NeonDB**           | User history, auth, chat context         |
-| **React.js**         | Frontend client                          |
-| **FastAPI**          | Backend server and LLM pipeline handler  |
-
+Hope you like it 😊👍
